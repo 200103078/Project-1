@@ -1,0 +1,94 @@
+h1 h2 h3 h4 h5 h6{
+    margin: 0;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    max-height: 100%;
+    background: url(/Project1/assets/image/Contact.jpg);
+    background-size: cover;
+}
+
+.container_intro{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100ch;
+}
+
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Contact{
+    text-transform: uppercase; 
+    color: aliceblue; 
+    font-size: 350%; 
+    font-weight: 700;
+}
+
+.hr__{
+    border-radius: 5px;
+    background: rgba(248, 161, 0, 0.9);
+    border-right: 2px solid rgba(14, 14, 14, 0);
+    padding: 1px 1px;
+    margin: 10px 0;
+}
+
+/*Media*/
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 992px){
+    .container_intro{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .container_intro{
+        padding: 20px;
+        flex-direction: column;
+        width: 80%;
+    }
+    .Contact{
+        color: black;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .container_intro{
+        padding: 20px;
+        flex-direction: column;
+        width: 80%;
+    }
+    .Contact{
+        font-size: 260%;
+        color: black;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .container_intro{
+        padding: 20px;
+        flex-direction: column;
+        width: 80%;
+    }
+    .Contact{
+        font-size: 200%;
+        color: black;
+    }
+}
